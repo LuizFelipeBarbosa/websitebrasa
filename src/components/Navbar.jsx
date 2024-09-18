@@ -32,7 +32,7 @@ function Navbar() {
 	return (
 		<div className="p-2">
 			<div className="flex h-20 max-w-[1200px] mx-auto">
-				<Link to="/" className="flex">
+				<Link to="/" className="flex flex-grow">
 					<img className="h-20" src={brasaLogo} alt="brasa-logo" />
 					<div className="flex h-20 p-5 flex-grow">
 						<h1 className="md:text-3xl text-2xl font-bold my-auto">
@@ -75,7 +75,7 @@ function Navbar() {
 				</div>
 				{/* Hamburger menu button for smaller screens */}
 				<button
-					className={`hamburger block md:hidden focus:outline-none z-50 ${
+					className={`hamburger justify-end block md:hidden focus:outline-none z-50 ${
 						menuOpen ? "fixed top-[34px] right-[8px]" : ""
 					}`}
 					onClick={toggleMenu}
