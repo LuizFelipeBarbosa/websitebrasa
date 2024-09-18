@@ -2,6 +2,7 @@ import React from "react";
 import asucLogo from "../assets/asuc-logo.png";
 import spanishPortugueseLogo from "../assets/spanish-portuguese.png";
 import brasaGlobalLogo from "../assets/brasa-global.png";
+import { Link } from "react-router-dom";
 
 import { useLanguage } from "../LanguageContext";
 
@@ -76,9 +77,12 @@ function Supporters() {
 					temporibus quod cumque, aliquid aperiam quo illum odit
 					pariatur reiciendis asperiores explicabo natus accusantium.
 				</p>
-				<button className="bg-yellow-500 mx-auto hover:bg-yellow-700 text-gray-100 text-2xl font-bold py-2 px-4 rounded">
+				<Link
+					to="/contact"
+					className="bg-yellow-500 mx-auto hover:bg-yellow-700 text-gray-100 text-2xl font-bold py-2 px-4 rounded"
+				>
 					{translations[language].button}
-				</button>
+				</Link>
 			</div>
 		</div>
 	);
