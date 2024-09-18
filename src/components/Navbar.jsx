@@ -32,12 +32,14 @@ function Navbar() {
 	return (
 		<div className="p-2">
 			<div className="flex h-20 max-w-[1200px] mx-auto">
-				<img className="h-20" src={brasaLogo} alt="brasa-logo" />
-				<div className="flex h-20 p-5 flex-grow">
-					<h1 className="md:text-3xl text-2xl font-bold my-auto">
-						BRASA BERKELEY
-					</h1>
-				</div>
+				<Link to="/" className="flex">
+					<img className="h-20" src={brasaLogo} alt="brasa-logo" />
+					<div className="flex h-20 p-5 flex-grow">
+						<h1 className="md:text-3xl text-2xl font-bold my-auto">
+							BRASA BERKELEY
+						</h1>
+					</div>
+				</Link>
 				{/* Navigation links for medium and larger screens */}
 				<div className="hidden md:flex flex-1 p-5 gap-4 justify-end">
 					<Link
