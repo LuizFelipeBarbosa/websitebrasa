@@ -109,7 +109,7 @@ function Main() {
 					</svg>
 				</div>
 				<div className="mx-auto my-12">
-					<div className="max-w-[1200px] mx-auto flex flex-col md:flex-row gap-4 ">
+					<div className="max-w-[1200px] mx-auto my-auto flex flex-col md:flex-row gap-4 ">
 						{/* BRASA DATA OR FUN FACTS */}
 						<div className="flex flex-col grow items-center justify-center">
 							<h1 className="text-8xl font-semibold mb-2 text-green-500">
