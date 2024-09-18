@@ -67,7 +67,7 @@ function Main() {
 	return (
 		<div className="">
 			<div className="grid grid-cols-1 md:grid-cols-2 md:gap-16">
-				<div className="p-4 flex md:flex-col items-end justify-center">
+				<div className="p-4 flex gap-2 md:flex-col items-end justify-center">
 					<h1 className="text-4xl md:text-6xl font-semibold tracking-wide text-green-500">
 						{translations[language].title_1}
 					</h1>
