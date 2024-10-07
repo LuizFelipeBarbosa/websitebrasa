@@ -1,0 +1,254 @@
+[
+    {
+        "name": "Ana Catharina Q.",
+        "position": "CO-PRESIDENT",
+        "bio": "I'm a computer science student at UFRJ. I'm passionate about technology and I'm always looking for new challenges.",
+        "profilePicture": "profile_picture_ana_catharina_q.png",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/anacatharinaq",
+            "Email": "ana.catharina.q@example.com",
+            "Instagram": "https://www.instagram.com/anacatharinaq"
+        },
+        "group": "BOARD LEADERSHIP"
+    },
+    {
+        "name": "Daniel Liao",
+        "position": "CO-PRESIDENT",
+        "bio": "I'm a computer science student at UFRJ. I'm passionate about technology and I'm always looking for new challenges.",
+        "profilePicture": "profile_picture_daniel_liao.png",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/danielliao",
+            "Email": "daniel.liao@example.com",
+            "Instagram": "https://www.instagram.com/danielliao"
+        },
+        "group": "BOARD LEADERSHIP"
+    },
+    {
+        "name": "Bruna Leão",
+        "position": "VP OF OPERATIONS",
+        "bio": "I'm a computer science student at UFRJ. I'm passionate about technology and I'm always looking for new challenges.",
+        "profilePicture": "profile_picture_bruna_leao.png",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/brunaleao",
+            "Email": "bruna.leao@example.com",
+            "Instagram": "https://www.instagram.com/brunaleao"
+        },
+        "group": "BOARD LEADERSHIP"
+    },
+    {
+        "name": "Joe Wang",
+        "position": "VP OF OPERATIONS",
+        "bio": "I'm a computer science student at UFRJ. I'm passionate about technology and I'm always looking for new challenges.",
+        "profilePicture": "profile_picture_joe_wang.png",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/joewang",
+            "Email": "joe.wang@example.com",
+            "Instagram": "https://www.instagram.com/joewang"
+        },
+        "group": "BOARD LEADERSHIP"
+    },
+    {
+        "name": "Nicole Elmôr",
+        "position": "VP OF FINANCE",
+        "bio": "I'm a computer science student at UFRJ. I'm passionate about technology and I'm always looking for new challenges.",
+        "profilePicture": "profile_picture_nicole_elmor.png",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/nicoleelmor",
+            "Email": "nicole.elmor@example.com",
+            "Instagram": "https://www.instagram.com/nicoleelmor"
+        },
+        "group": "BOARD LEADERSHIP"
+    },
+    {
+        "name": "Mariana Ierardi",
+        "position": "VP OF SOCIAL AFFAIRS",
+        "bio": "I'm a computer science student at UFRJ. I'm passionate about technology and I'm always looking for new challenges.",
+        "profilePicture": "profile_picture_mariana_ierardi.png",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/marianaierardi",
+            "Email": "mariana.ierardi@example.com",
+            "Instagram": "https://www.instagram.com/marianaierardi"
+        },
+        "group": "BOARD LEADERSHIP"
+    },
+    {
+        "name": "Lucas Camargo",
+        "position": "VP OF TECH",
+        "bio": "I'm a computer science student at UFRJ. I'm passionate about technology and I'm always looking for new challenges.",
+        "profilePicture": "profile_picture_lucas_camargo.png",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/lucascamargo",
+            "Email": "lucas.camargo@example.com",
+            "Instagram": "https://www.instagram.com/lucascamargo"
+        },
+        "group": "BOARD LEADERSHIP"
+    },
+    {
+        "name": "Ana Teresa Fabiani",
+        "position": "VP OF MARKETING",
+        "bio": "I'm a computer science student at UFRJ. I'm passionate about technology and I'm always looking for new challenges.",
+        "profilePicture": "profile_picture_ana_teresa_fabiani.png",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/anateresafabiani",
+            "Email": "ana.teresa.fabiani@example.com",
+            "Instagram": "https://www.instagram.com/anateresafabiani"
+        },
+        "group": "BOARD LEADERSHIP"
+    },
+    {
+        "name": "Leonardo Soffiatti",
+        "position": "VP OF EXTERNAL RELATIONS",
+        "bio": "I'm a computer science student at UFRJ. I'm passionate about technology and I'm always looking for new challenges.",
+        "profilePicture": "profile_picture_leonardo_soffiatti.png",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/leonardosoffiatti",
+            "Email": "leonardo.soffiatti@example.com",
+            "Instagram": "https://www.instagram.com/leonardosoffiatti"
+        },
+        "group": "BOARD LEADERSHIP"
+    },
+    {
+        "name": "Amogh Balaji",
+        "position": "OPERATIONS",
+        "bio": "I'm a computer science student at UFRJ. I'm passionate about technology and I'm always looking for new challenges.",
+        "profilePicture": "profile_picture_amogh_balaji.png",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/amoghbalaji",
+            "Email": "amogh.balaji@example.com",
+            "Instagram": "https://www.instagram.com/amoghbalaji"
+        },
+        "group": "BOARD MEMBERS"
+    },
+    {
+        "name": "Marina Sant'Anna",
+        "position": "FINANCE",
+        "bio": "I'm a computer science student at UFRJ. I'm passionate about technology and I'm always looking for new challenges.",
+        "profilePicture": "profile_picture_marina_santanna.png",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/marinasantanna",
+            "Email": "marina.santanna@example.com",
+            "Instagram": "https://www.instagram.com/marinasantanna"
+        },
+        "group": "BOARD MEMBERS"
+    },
+    {
+        "name": "Christian Hulot",
+        "position": "FINANCE",
+        "bio": "I'm a computer science student at UFRJ. I'm passionate about technology and I'm always looking for new challenges.",
+        "profilePicture": "profile_picture_christian_hulot.png",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/christianhulot",
+            "Email": "christian.hulot@example.com",
+            "Instagram": "https://www.instagram.com/christianhulot"
+        },
+        "group": "BOARD MEMBERS"
+    },
+    {
+        "name": "Duda Lopes",
+        "position": "SOCIAL AFFAIRS",
+        "bio": "I'm a computer science student at UFRJ. I'm passionate about technology and I'm always looking for new challenges.",
+        "profilePicture": "profile_picture_duda_lopes.png",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/dudalopes",
+            "Email": "duda.lopes@example.com",
+            "Instagram": "https://www.instagram.com/dudalopes"
+        },
+        "group": "BOARD MEMBERS"
+    },
+    {
+        "name": "Thais Dubost",
+        "position": "SOCIAL AFFAIRS",
+        "bio": "I'm a computer science student at UFRJ. I'm passionate about technology and I'm always looking for new challenges.",
+        "profilePicture": "profile_picture_thais_dubost.png",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/thaisdubost",
+            "Email": "thais.dubost@example.com",
+            "Instagram": "https://www.instagram.com/thaisdubost"
+        },
+        "group": "BOARD MEMBERS"
+    },
+    {
+        "name": "Arthur Lopes",
+        "position": "SOCIAL AFFAIRS",
+        "bio": "I'm a computer science student at UFRJ. I'm passionate about technology and I'm always looking for new challenges.",
+        "profilePicture": "profile_picture_arthur_lopes.png",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/arthurlopes",
+            "Email": "arthur.lopes@example.com",
+            "Instagram": "https://www.instagram.com/arthurlopes"
+        },
+        "group": "BOARD MEMBERS"
+    },
+    {
+        "name": "Luan Cruz",
+        "position": "TECH",
+        "bio": "I'm a computer science student at UFRJ. I'm passionate about technology and I'm always looking for new challenges.",
+        "profilePicture": "profile_picture_luan_cruz.png",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/luancruz",
+            "Email": "luan.cruz@example.com",
+            "Instagram": "https://www.instagram.com/luancruz"
+        },
+        "group": "BOARD MEMBERS"
+    },
+    {
+        "name": "Lara Chieppe",
+        "position": "TECH",
+        "bio": "I'm a computer science student at UFRJ. I'm passionate about technology and I'm always looking for new challenges.",
+        "profilePicture": "profile_picture_lara_chieppe.png",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/larachieppe",
+            "Email": "lara.chieppe@example.com",
+            "Instagram": "https://www.instagram.com/larachieppe"
+        },
+        "group": "BOARD MEMBERS"
+    },
+    {
+        "name": "Roni Kriger",
+        "position": "TECH",
+        "bio": "I'm a computer science student at UFRJ. I'm passionate about technology and I'm always looking for new challenges.",
+        "profilePicture": "profile_picture_roni_kriger.png",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/ronikriger",
+            "Email": "roni.kriger@example.com",
+            "Instagram": "https://www.instagram.com/ronikriger"
+        },
+        "group": "BOARD MEMBERS"
+    },
+    {
+        "name": "Tiffanie Guichard",
+        "position": "TECH",
+        "bio": "I'm a computer science student at UFRJ. I'm passionate about technology and I'm always looking for new challenges.",
+        "profilePicture": "profile_picture_tiffanie_guichard.png",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/tiffanieguichard",
+            "Email": "tiffanie.guichard@example.com",
+            "Instagram": "https://www.instagram.com/tiffanieguichard"
+        },
+        "group": "BOARD MEMBERS"
+    },
+    {
+        "name": "Brisa Brown",
+        "position": "MARKETING",
+        "bio": "I'm a computer science student at UFRJ. I'm passionate about technology and I'm always looking for new challenges.",
+        "profilePicture": "profile_picture_brisa_brown.png",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/brisabrown",
+            "Email": "brisa.brown@example.com",
+            "Instagram": "https://www.instagram.com/brisabrown"
+        },
+        "group": "BOARD MEMBERS"
+    },
+    {
+        "name": "Matheus Ribeiro",
+        "position": "EXTERNAL RELATIONS",
+        "bio": "I'm a computer science student at UFRJ. I'm passionate about technology and I'm always looking for new challenges.",
+        "profilePicture": "profile_picture_matheus_ribeiro.png",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/matheusribeiro",
+            "Email": "matheus.ribeiro@example.com",
+            "Instagram": "https://www.instagram.com/matheusribeiro"
+        },
+        "group": "BOARD MEMBERS"
+    }
+]
