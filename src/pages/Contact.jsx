@@ -1,8 +1,8 @@
 import React from "react";
-import ContactForm from "../components/ContactForm";
+import EventsList from "../components/EventsList";
 
-function Contact() {
-	return <ContactForm />;
+function Events() {
+  return <EventsList />;
 }
 
-export default Contact;
+export default Events;
