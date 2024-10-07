@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Summer Networking Event",
+    "date": "2023-08-15",
+    "description": "An event to network with industry professionals.",
+    "image": "/images/event1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Tech Talk Series",
+    "date": "2023-09-10",
+    "description": "A series of talks on the latest in technology.",
+    "image": "/images/event2.jpg"
+  }
+  // Add more events as needed
+]
