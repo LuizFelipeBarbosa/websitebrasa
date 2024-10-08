@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import { useLanguage } from "../LanguageContext";
 
 function ContactForm() {
@@ -23,6 +24,29 @@ function ContactForm() {
 		},
 	};
 
+	const form = useRef();
+
+	const EMAILJS_SERVICE_ID = import.meta.env.EMAILJS_SERVICE_ID;
+	const EMAILJS_TEMPLATE_ID = import.meta.env.EMAILJS_TEMPLATE_ID;
+	const EMAILJS_API_PUBLIC_KEY = import.meta.env.EMAILJS_API_PUBLIC_KEY;
+
+	const sendEmail = (e) => {
+		e.preventDefault();
+
+		emailjs
+			.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", form.current, {
+				publicKey: "YOUR_PUBLIC_KEY",
+			})
+			.then(
+				() => {
+					console.log("SUCCESS!");
+				},
+				(error) => {
+					console.log("FAILED...", error.text);
+				}
+			);
+	};
+
 	return (
 		<div className="min-h-[calc(100vh-346px)] flex items-center justify-center max-w-[1200px] mx-auto">
 			<div className="bg-white p-8 flex flex-col md:flex-row md:space-x-12">
@@ -44,10 +68,11 @@ function ContactForm() {
 				</div>
 				{/* Column 2 */}
 				<div className="md:w-1/2">
-					<form className="space-y-4">
+					<form className="space-y-4" ref={form} onSubmit={sendEmail}>
 						<div className="flex space-x-4">
 							<input
 								type="text"
+								name="user_name"
 								placeholder={translations[language].first_name}
 								className="w-1/2 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
 							/>
@@ -59,15 +84,18 @@ function ContactForm() {
 						</div>
 						<input
 							type="email"
+							name="user_email"
 							placeholder="Email"
 							className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
 						/>
 						<textarea
+							name="message"
 							placeholder={translations[language].message}
 							className="w-full h-32 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
 						/>
 						<button
 							type="submit"
+							value="Send"
 							className="w-full bg-green-500 text-white py-2 px-4 rounded-md hover:bg-green-700 transition duration-200"
 						>
 							{translations[language].send_button}
