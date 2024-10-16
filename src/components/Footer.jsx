@@ -1,5 +1,6 @@
 import React from "react";
 import brasaLogo from "../assets/brasa-logo.png";
+import ocfLogo from "../assets/ocf-logo.png";
 import { Link } from "react-router-dom";
 import { useLanguage } from "../LanguageContext";
 
@@ -11,6 +12,7 @@ function Footer() {
 			home: "Home",
 			members: "Members",
 			partners: "Partners",
+			events: "Events",
 			contact: "Contact",
 			language: "PT",
 		},
@@ -19,6 +21,7 @@ function Footer() {
 			home: "Início",
 			members: "Membros",
 			partners: "Parceiros",
+			events: "Eventos",
 			contact: "Contato",
 			language: "EN",
 		},
@@ -42,19 +45,23 @@ function Footer() {
 			<div className="grid grid-cols-2 md:grid-cols-3 gap-4 mx-10 md:mx-auto max-w-[1200px]">
 				<Link to="/" className="flex flex-col col-span-2 md:col-span-1">
 					<img
-						className="mx-auto my-auto h-32 w-32"
+						className="mx-auto my-auto h-28 w-28"
 						src={brasaLogo}
 						alt="brasa-logo"
 					/>
-					<div className="flex p-5 pt-0">
+					<div className="flex p-1">
 						<h1 className="text-3xl font-bold mx-auto text-white text-center">
 							BRASA BERKELEY
 						</h1>
 					</div>
+					<img 
+						className="mx-auto h-14" 
+						src={ocfLogo}
+					/>
 				</Link>
 				<div className="p-5 mx-auto">
-					<div className="flex gap-2 flex-col">
-						<h1 className="my-auto text-yellow-500 uppercase">
+					<div className="flex gap-2 flex-col items-center">
+						<h1 className="my-auto text-amber-400 uppercase">
 							{translations[language].general}
 						</h1>
 						<Link
@@ -76,6 +83,12 @@ function Footer() {
 							{translations[language].partners}
 						</Link>
 						<Link
+							to="/events"
+							className="my-auto uppercase text-gray-300 hover:text-gray-600"
+						>
+							{translations[language].events}
+						</Link>
+						<Link
 							to="/contact"
 							className="my-auto uppercase text-gray-300 hover:text-gray-600"
 						>
@@ -83,8 +96,8 @@ function Footer() {
 						</Link>
 					</div>
 				</div>
-				<div className="flex p-5 gap-2 flex-col mx-auto">
-					<h1 className="text-yellow-500 uppercase">
+				<div className="flex p-5 gap-2 flex-col mx-auto items-center">
+					<h1 className="text-amber-400 uppercase">
 						{translations[language].contact}
 					</h1>
 					<a

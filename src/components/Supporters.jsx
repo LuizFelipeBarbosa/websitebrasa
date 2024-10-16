@@ -22,7 +22,7 @@ function Supporters() {
 
 	return (
 		<div>
-			<div className="p-16 bg-green-500 relative">
+			<div className="p-16 bg-blue-50 relative">
 				<div class="custom-shape-divider-top-1726618814">
 					<svg
 						data-name="Layer 1"
@@ -68,7 +68,7 @@ function Supporters() {
 				</div>
 			</div>
 			<div className="max-w-[1200px] mx-auto  p-8 flex flex-col">
-				<h1 className="text-4xl font-semibold text-center">
+				<h1 className="text-4xl font-semibold text-center border-solid ">
 					{translations[language].interest_question}
 				</h1>
 				<p className="text-lg text-center text-black my-4">

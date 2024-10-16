@@ -1,8 +1,8 @@
 import React from "react";
-import eventsData from "../data/eventsData.json";
 
-function EventsList() {
+function Events() {
   return (
+    /*
     <div className="events-container">
       <h1>Past Events</h1>
       <ul className="events-list">
@@ -18,7 +18,10 @@ function EventsList() {
         ))}
       </ul>
     </div>
+    */
+   "HelloWorld"
   );
+  
 }
 
-export default EventsList;
+export default Events;

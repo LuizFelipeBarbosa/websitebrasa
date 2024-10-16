@@ -7,6 +7,7 @@ import img3 from "../assets/105.png";
 import img4 from "../assets/106.png";
 import img5 from "../assets/107.png";
 import { useLanguage } from "../LanguageContext";
+import { Link } from "react-router-dom";
 
 function Main() {
 	const { language, toggleLanguage } = useLanguage();
@@ -21,42 +22,51 @@ function Main() {
 			body_text_2:
 				"Our goals include <strong>promoting Brazilian culture and the Portuguese language, assisting prospective students during their application process,</strong> and organizing events and panels within the BRASA community. We also offer networking opportunities, such as <strong>professional and academic exchange programs</strong> with leading Brazilian institutions, to foster connections that benefit our members both personally and professionally.",
 			members: "MEMBERS",
-			years: "YEARS IN OPERATION",
+			years: "SEMESTERS IN OPERATION",
 			alumni: "ALUMNI",
-			business: "BUSINESS PARTNERS",
 			majors: "MAJORS",
 			events: "EVENTS",
 			events_text:
 				"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui optio quis eaque, quidem magnam odio facere corporis sint tempore earum? Libero ab accusantium adipisci sed suscipit omnis, aut assumenda eligendi.",
+			events_button: 
+				"Come to our events!",
 			professional: "PROFESSIONAL",
 			professional_text:
 				"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui optio quis eaque, quidem magnam odio facere corporis sint tempore earum? Libero ab accusantium adipisci sed suscipit omnis, aut assumenda eligendi.",
+			professional_button:
+				"Sign up for our newsletter!",
 			community: "COMMUNITY",
 			community_text:
 				"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui optio quis eaque, quidem magnam odio facere corporis sint tempore earum? Libero ab accusantium adipisci sed suscipit omnis, aut assumenda eligendi.",
+			community_button: 
+				"Join us!",
 		},
 		pt: {
 			title_1: "O QUE",
-			title_2: "É O",
+			title_2: "É A",
 			title_3: "BRASA?",
 			body_text_1:
 				"A <strong>Brazilian Student Association at UC Berkeley</strong> é dedicada a estabelecer relacionamentos duradouros entre estudantes brasileiros em nossa universidade e com membros da BRASA de outras universidades no exterior. Juntas, todas as organizações BRASA <strong>criam um ambiente de “lar longe de casa”</strong>, proporcionando <strong>apoio e comunidade essenciais</strong> para brasileiros estudando no exterior.",
 			body_text_2:
 				"Nossos objetivos incluem <strong>promover a cultura brasileira e a língua portuguesa, auxiliar os estudantes em potencial durante o processo de inscrição</strong> e organizar eventos e painéis dentro da comunidade BRASA. Também oferecemos oportunidades de networking, como <strong>programas de intercâmbio profissional e acadêmico</strong> com instituições brasileiras líderes, para fomentar conexões que beneficiem nossos membros tanto pessoal quanto profissionalmente.",
 			members: "MEMBROS",
-			years: "ANOS EM OPERAÇÃO",
+			years: "SEMESTRES EM OPERAÇÃO",
 			alumni: "ALUMNI",
-			business: "PARCEIROS DE NEGÓCIOS",
 			majors: "MAJORS",
 			events: "EVENTOS",
 			events_text:
-				"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui optio quis eaque, quidem magnam odio facere corporis sint tempore earum? Libero ab accusantium adipisci sed suscipit omnis, aut assumenda eligendi.",
-			professional: "PROFISSIONAL",
+			"A BRASA Berkeley realiza uma série de eventos durante todo o ano, que incluem desde encontros para receber novos alunos até celebrações da música e da cultura brasileira. Nossos eventos enriquecem a experiência da BRASA, proporcionando espaços para os associados celebrarem sua herança, compartilharem suas jornadas únicas e construírem juntos memórias duradouras.",
+			events_button: 
+				"Venha a nossos eventos!",
+				professional: "PROFISSIONAL",
 			professional_text:
-				"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui optio quis eaque, quidem magnam odio facere corporis sint tempore earum? Libero ab accusantium adipisci sed suscipit omnis, aut assumenda eligendi.",
+				"Além da construção de comunidades, a BRASA Berkeley oferece incríveis  e enriquecedoras oportunidades de desenvolvimento profissional, incluindo eventos de networking e discussões com profissionais líderes de instituições globais. Essas iniciativas conectam os alunos a mentores, intercâmbios acadêmicos e oportunidades de carreira que potencializam seu crescimento pessoal e profissional.",
+			professional_button: "Assine a nossa newsletter!",
 			community: "COMUNIDADE",
 			community_text:
-				"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui optio quis eaque, quidem magnam odio facere corporis sint tempore earum? Libero ab accusantium adipisci sed suscipit omnis, aut assumenda eligendi.",
+			" A BRASA Berkeley é uma rede vibrante de apoio para estudantes brasileiros em UC Berkeley, conectando-os com colegas e brasileiros estudantes que moram na Bay Area. Esta comunidade serve como um acolhedor “lar longe de casa”, promovendo a cultura, a língua e as tradições brasileiras, ao mesmo tempo que fornece recursos cruciais para ajudar os alunos a prosperar acadêmica e socialmente.",
+			community_button:
+			"Junte-se a nós!",
 		},
 	};
 
@@ -68,13 +78,13 @@ function Main() {
 		<div className="">
 			<div className="grid grid-cols-1 md:grid-cols-2 md:gap-16">
 				<div className="p-4 flex gap-2 md:flex-col items-end justify-center">
-					<h1 className="text-4xl md:text-6xl font-semibold tracking-wide text-green-500">
+					<h1 className="text-4xl md:text-6xl font-semibold tracking-wide text-lime-600">
 						{translations[language].title_1}
 					</h1>
-					<h1 className="text-4xl md:text-6xl font-semibold tracking-wide text-yellow-500">
+					<h1 className="text-4xl md:text-6xl font-semibold tracking-wide text-amber-400">
 						{translations[language].title_2}
 					</h1>
-					<h1 className="text-4xl md:text-6xl font-semibold tracking-wide text-blue-500">
+					<h1 className="text-4xl md:text-6xl font-semibold tracking-wide text-blue-700">
 						{translations[language].title_3}
 					</h1>
 				</div>
@@ -94,7 +104,7 @@ function Main() {
 				</p>
 			</div>
 
-			<div className="relative bg-blue-500 p-8">
+			<div className="relative bg-blue-950 p-8">
 				<div className="custom-shape-divider-top-1726614760">
 					<svg
 						data-name="Layer 1"
@@ -112,16 +122,16 @@ function Main() {
 					<div className="max-w-[1200px] mx-auto my-auto flex flex-col md:flex-row gap-4 ">
 						{/* BRASA DATA OR FUN FACTS */}
 						<div className="flex flex-col grow items-center justify-center">
-							<h1 className="text-8xl font-semibold mb-2 text-green-500">
-								175
+							<h1 className="text-8xl font-semibold mb-2 text-lime-600">
+								180+
 							</h1>
 							<p className="mx-auto text-white">
 								{translations[language].members}
 							</p>
 						</div>
 						<div className="flex flex-col grow items-center justify-center">
-							<h1 className="text-8xl font-semibold mb-2 text-yellow-500">
-								10
+							<h1 className="text-8xl font-semibold mb-2 text-amber-400">
+								9
 							</h1>
 							<p className="mx-auto text-white">
 								{translations[language].years}
@@ -136,15 +146,7 @@ function Main() {
 							</p>
 						</div>
 						<div className="flex flex-col grow items-center justify-center">
-							<h1 className="text-8xl font-semibold mb-2 text-yellow-500">
-								15
-							</h1>
-							<p className="mx-auto text-white">
-								{translations[language].business}
-							</p>
-						</div>
-						<div className="flex flex-col grow items-center justify-center">
-							<h1 className="text-8xl font-semibold mb-2 text-green-500">
+							<h1 className="text-8xl font-semibold mb-2 text-lime-600">
 								20+
 							</h1>
 							<p className="mx-auto text-white">
@@ -170,13 +172,19 @@ function Main() {
 			<div className="pt-4">
 				<div className="max-w-[1200px] mx-auto mb-4">
 					<div className="grid md:grid-cols-2 grid-cols-1">
-						<div className="p-12 flex flex-col gap-8">
-							<h1 className="text-4xl mx-auto mt-auto text-green-500 font-semibold tracking-wide">
+						<div className="p-12 flex flex-col gap-8 items-center align-middle">
+							<h1 className="text-4xl mt-auto text-lime-600 font-semibold tracking-wide">
 								{translations[language].community}
 							</h1>
-							<p className="mb-auto">
+							<p className="">
 								{translations[language].community_text}
 							</p>
+							<a href="https://forms.gle/CGyCXrU9YHJGYqfU7">
+                        		<button className="flex bg-lime-600 hover:bg-lime-800 text-gray-100 text-2xl font-bold py-2 px-4 rounded mb-24">
+								{translations[language].community_button}
+                   				</button>
+                   			</a>
+							
 						</div>
 						<Carousel images={images} />
 					</div>
@@ -185,23 +193,34 @@ function Main() {
 							className="order-last md:order-none"
 							images={images_1}
 						/>
-						<div className="p-12 flex flex-col gap-8 order-first md:order-none">
-							<h1 className="text-4xl mx-auto mt-auto text-yellow-500 font-semibold tracking-wide">
+						<div className="p-12 flex flex-col gap-8 items-center align-middle">
+							<h1 className="text-4xl mt-auto text-amber-400 font-semibold tracking-wide">
 								{translations[language].professional}
 							</h1>
-							<p className="mb-auto">
+							<p className="">
 								{translations[language].professional_text}
 							</p>
+							<a href="">
+                        		<button className="flex bg-amber-400 hover:bg-amber-600 text-gray-100 text-2xl font-bold py-2 px-4 rounded mb-24">
+								{translations[language].professional_button}
+                   				</button>
+                   			</a>
+							
 						</div>
 					</div>
 					<div className="grid md:grid-cols-2 grid-cols-1">
-						<div className="p-12 flex flex-col gap-8">
-							<h1 className="text-4xl mx-auto mt-auto text-blue-500 font-semibold tracking-wide">
+						<div className="p-12 flex flex-col gap-8 items-center align-middle">
+							<h1 className="text-4xl mt-auto text-blue-700 font-semibold tracking-wide">
 								{translations[language].events}
 							</h1>
-							<p className="mb-auto">
+							<p className="">
 								{translations[language].events_text}
 							</p>
+							<Link 
+								to="src/pages/Events.jsx" 
+								className="flex bg-blue-700 hover:bg-blue-950 text-gray-100 text-2xl font-bold py-2 px-4 rounded mb-24" >
+									{translations[language].events_button}
+							</Link>
 						</div>
 						<Carousel images={images_2} />
 					</div>

@@ -14,16 +14,16 @@ function Navbar() {
 
 	const translations = {
 		en: {
-			home: "Home",
 			members: "Members",
 			partners: "Partners",
+			events: "Events",
 			contact: "Contact",
 			language: "PT",
 		},
 		pt: {
-			home: "Início",
 			members: "Membros",
 			partners: "Parceiros",
+			events: "Eventos",
 			contact: "Contato",
 			language: "EN",
 		},
@@ -61,13 +61,19 @@ function Navbar() {
 						{translations[language].partners}
 					</Link>
 					<Link
+						to="/events"
+						className="text-2xl my-auto uppercase hover:text-gray-600"
+					>
+						{translations[language].events}
+					</Link>
+					<Link
 						to="/contact"
 						className="text-2xl my-auto uppercase hover:text-gray-600"
 					>
 						{translations[language].contact}
 					</Link>
 					<button
-						className="text-2xl font-extrabold my-auto uppercase hover:text-gray-600"
+						className="bg-lime-600 hover:bg-lime-800 text-gray-100 text-2xl font-bold px-3 rounded"
 						onClick={toggleLanguage}
 					>
 						{translations[language].language}
@@ -124,6 +130,13 @@ function Navbar() {
 					onClick={() => setMenuOpen(false)}
 				>
 					{translations[language].partners}
+				</Link>
+				<Link
+					to="/events"
+					className="text-2xl uppercase hover:text-gray-600"
+					onClick={() => setMenuOpen(false)}
+				>
+					{translations[language].events}
 				</Link>
 				<Link
 					to="/contact"
