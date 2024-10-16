@@ -13,10 +13,12 @@ function Supporters() {
 		en: {
 			interest_question: "Interested in becoming a Partner?",
 			button: "CONTACT US",
+			text: "BRASA Berkeley values committed partners who play a crucial role in empowering Brazilian culture at UC Berkeley. Our partners provide resources, mentorship, and networking opportunities that are instrumental in students' personal growth and career success. By partnering with BRASA Berkeley, you become an integral part of a community that is dedicated to promoting cultural exchange and education. Together, we aim to create impactful programs and initiatives to promote Brazilian culture.",
 		},
 		pt: {
 			interest_question: "Interessado em se tornar um Parceiro?",
 			button: "CONTATE-NOS",
+			text: "A BRASA Berkeley valoriza parceiros comprometidos que capacitam a cultura brasileira na UC Berkeley. Os parceiros fornecem recursos, orientação e networking para o crescimento pessoal e o sucesso profissional dos alunos. Ao fazer parceria com a BRASA Berkeley, você se junta a uma comunidade que promove intercâmbio cultural e educação. Juntos, mantemos a meta de criar e continuar construindo programas e iniciativas de alto impacto para promover a cultura brasileira.",
 		},
 	};
 
@@ -72,13 +74,10 @@ function Supporters() {
 					{translations[language].interest_question}
 				</h1>
 				<p className="text-lg text-center text-black my-4">
-					Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-					Velit libero labore, delectus excepturi quidem quas adipisci
-					temporibus quod cumque, aliquid aperiam quo illum odit
-					pariatur reiciendis asperiores explicabo natus accusantium.
+					{translations[language].text}
 				</p>
 				<Link
-					to="/contact"
+					to=""
 					className="bg-yellow-500 mx-auto hover:bg-yellow-700 text-gray-100 text-2xl font-bold py-2 px-4 rounded"
 				>
 					{translations[language].button}

@@ -27,17 +27,17 @@ function Main() {
 			majors: "MAJORS",
 			events: "EVENTS",
 			events_text:
-				"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui optio quis eaque, quidem magnam odio facere corporis sint tempore earum? Libero ab accusantium adipisci sed suscipit omnis, aut assumenda eligendi.",
+				"BRASA Berkeley hosts a series of events throughout the year, from meetings to welcome new students to gatherings to celebrate Brazilian music and culture. Our events enrich the BRASA experience, allowing members to celebrate their heritage, share their unique journeys, and build lasting memories.",
 			events_button: 
 				"Come to our events!",
 			professional: "PROFESSIONAL",
 			professional_text:
-				"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui optio quis eaque, quidem magnam odio facere corporis sint tempore earum? Libero ab accusantium adipisci sed suscipit omnis, aut assumenda eligendi.",
+				"BRASA Berkeley is not just about community building. It's a gateway to invaluable professional development opportunities. These include networking events and discussions with leading professionals from global institutions. These initiatives are designed to connect students to mentors, academic exchanges, and career opportunities that can significantly enhance their personal and professional growth.",
 			professional_button:
 				"Sign up for our newsletter!",
 			community: "COMMUNITY",
 			community_text:
-				"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui optio quis eaque, quidem magnam odio facere corporis sint tempore earum? Libero ab accusantium adipisci sed suscipit omnis, aut assumenda eligendi.",
+				`BRASA Berkeley fosters a vibrant and supportive network for Brazilian students at UC Berkeley, connecting them with peers and Brazilians in the Bay Area. This community serves as a welcoming "home away from home", promoting Brazilian culture, language, and traditions while providing crucial resources to help students thrive academically and socially.`,
 			community_button: 
 				"Join us!",
 		},
@@ -64,7 +64,7 @@ function Main() {
 			professional_button: "Assine a nossa newsletter!",
 			community: "COMUNIDADE",
 			community_text:
-			" A BRASA Berkeley é uma rede vibrante de apoio para estudantes brasileiros em UC Berkeley, conectando-os com colegas e brasileiros estudantes que moram na Bay Area. Esta comunidade serve como um acolhedor “lar longe de casa”, promovendo a cultura, a língua e as tradições brasileiras, ao mesmo tempo que fornece recursos cruciais para ajudar os alunos a prosperar acadêmica e socialmente.",
+			`A BRASA Berkeley é uma rede vibrante de apoio para estudantes brasileiros em UC Berkeley, conectando-os com colegas e brasileiros estudantes que moram na Bay Area. Esta comunidade serve como um acolhedor "lar longe de casa", promovendo a cultura, a língua e as tradições brasileiras, ao mesmo tempo que fornece recursos cruciais para ajudar os alunos a prosperar acadêmica e socialmente.`,
 			community_button:
 			"Junte-se a nós!",
 		},
@@ -200,7 +200,7 @@ function Main() {
 							<p className="">
 								{translations[language].professional_text}
 							</p>
-							<a href="">
+							<a href="https://forms.gle/mQuKiA6uS4y9PrKY8">
                         		<button className="flex bg-amber-400 hover:bg-amber-600 text-gray-100 text-2xl font-bold py-2 px-4 rounded mb-24">
 								{translations[language].professional_button}
                    				</button>
