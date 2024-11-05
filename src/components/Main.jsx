@@ -57,7 +57,7 @@ function Main() {
 			events_text:
 			"A BRASA Berkeley realiza uma série de eventos durante todo o ano, que incluem desde encontros para receber novos alunos até celebrações da música e da cultura brasileira. Nossos eventos enriquecem a experiência da BRASA, proporcionando espaços para os associados celebrarem sua herança, compartilharem suas jornadas únicas e construírem juntos memórias duradouras.",
 			events_button: 
-				"Venha a nossos eventos!",
+				"Venha aos nossos eventos!",
 				professional: "PROFISSIONAL",
 			professional_text:
 				"Além da construção de comunidades, a BRASA Berkeley oferece incríveis  e enriquecedoras oportunidades de desenvolvimento profissional, incluindo eventos de networking e discussões com profissionais líderes de instituições globais. Essas iniciativas conectam os alunos a mentores, intercâmbios acadêmicos e oportunidades de carreira que potencializam seu crescimento pessoal e profissional.",
@@ -217,7 +217,7 @@ function Main() {
 								{translations[language].events_text}
 							</p>
 							<Link 
-								to="src/pages/Events.jsx" 
+								to='../pages/Events";'
 								className="flex bg-blue-700 hover:bg-blue-950 text-gray-100 text-2xl font-bold py-2 px-4 rounded mb-24" >
 									{translations[language].events_button}
 							</Link>

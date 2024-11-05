@@ -77,7 +77,7 @@ function Supporters() {
 					{translations[language].text}
 				</p>
 				<Link
-					to=""
+					to="/contact"
 					className="bg-yellow-500 mx-auto hover:bg-yellow-700 text-gray-100 text-2xl font-bold py-2 px-4 rounded"
 				>
 					{translations[language].button}

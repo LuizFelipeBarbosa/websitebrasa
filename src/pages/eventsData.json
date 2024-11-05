@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "title": "Summer Networking Event",
+      "date": "13 October 2024",
+      "description": "BRASA members joined forces for 'Keep the Red Out' to help make Berkeley fire-safe! We spent the day clearing dry vegetation in the hills above campus, reducing wildfire risk and protecting our community. With the dry and oily Eucalyptus trees in the Berkeley Hills, the danger is real. Huge thanks to everyone who volunteered and helped keep Berkeley safe! 🌲 ✨",
+      "image": "event4.png"
+    },
+    {
+      "id": 2,
+      "title": "Brasa Churras",
+      "date": "12 October 2024",
+      "description": "You know the drill: Brazilian music, STEAK (picanha), garlic bread, sausage, Brazilian cheese, open bar, and a good time. Bring your friends, there's food for everyone! We cannot wait to see you all there!🇧🇷",
+      "image": "event4.png"
+    },
+    {
+      "id": 3,
+      "title": "Brasa Churras",
+      "date": "21 September 2024",
+      "description": "Craving authentic Brazilian barbecue? Join us this weekend for our BRASA BBQ on September 21st at 12:30 PM! We'll be serving up all your favorites—Brazilian steaks, sausages, garlic bread, and drinks. Don't miss out! Tickets are $12 for members and $15 for non-members. Bring a friend and enjoy a taste of Brazil! 🍖🍢 See you there!",
+      "image": "event4.png"
+    },
+    {
+      "id": 4,
+      "title": "Welcome Potluck",
+      "date": "1 September 2024",
+      "description": "Welcome, bears! 🐻 We're super excited to get to know you! Come to our potluck this Sunday at Willard Park at 2pm. Please bring a treat with you for us to share and enjoy together. See you there!",
+      "image": "event4.png"
+    }
+  ]
