@@ -17,7 +17,7 @@ function Events() {
   const { language, toggleLanguage } = useLanguage();
 	const translations = {
 		en: {
-			title: "Current Events",
+			title: "Upcoming Events",
       date: "Date:",
       pastTitle: "Past Events",
 		},
