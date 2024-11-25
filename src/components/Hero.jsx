@@ -44,7 +44,7 @@ function Hero() {
 					style={{
 						backgroundImage: `url(${brasaGroupImg})`,
 						backgroundSize: "cover",
-						backgroundPosition: "center",
+						backgroundPosition: "center -250px", // Move image 50px upward
 						transform: `translateY(${offsetY * 0.5}px)`,
 						willChange: "transform",
 					}}
@@ -54,13 +54,13 @@ function Hero() {
 					<h1 className="text-4xl md:text-6xl font-bold text-white text-center font-prompt tracking-wide">
 						{translations[language].title}
 					</h1>
-                   <div className="flex gap-16">
-                   <a href="https://forms.gle/CGyCXrU9YHJGYqfU7">
-                       <button className="bg-amber-400 hover:bg-amber-600 text-gray-100 text-2xl font-bold py-2 px-4 rounded">
-                           {translations[language].button}
-                   </button>
-                   </a>
-                   </div>
+					<div className="flex gap-16">
+						<a href="https://forms.gle/CGyCXrU9YHJGYqfU7">
+							<button className="bg-amber-400 hover:bg-amber-600 text-gray-100 text-2xl font-bold py-2 px-4 rounded">
+								{translations[language].button}
+							</button>
+						</a>
+					</div>
 				</div>
 			</div>
 			<div className="custom-shape-divider-bottom-1726621465">
