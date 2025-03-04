@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* DIAGONAL DIVIDER TOP */
+.custom-shape-divider-bottom-1726621465 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1726621465 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1726621465 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-bottom-1726621465 svg {
+        width: calc(100% + 1.3px);
+        height: 25px;
+    }
+}
+
+/* DIAGONAL DIVIDER FOOTER */
+
+.custom-shape-divider-top-1726621557 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1726621557 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+}
+
+.custom-shape-divider-top-1726621557 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-top-1726621557 svg {
+        width: calc(100% + 1.3px);
+        height: 25px;
+    }
+}
+
+/* WAVE DIVIDER TOP */
+.custom-shape-divider-top-1726614760 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1726614760 svg {
+    position: relative;
+    display: block;
+    width: calc(130% + 1.3px);
+    height: 55px;
+}
+
+.custom-shape-divider-top-1726614760 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* WAVE DIVIDER BOTTOM */
+.custom-shape-divider-bottom-1726614683 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1726614683 svg {
+    position: relative;
+    display: block;
+    width: calc(130% + 1.3px);
+    height: 55px;
+}
+
+.custom-shape-divider-bottom-1726614683 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* SUPPORTER PAGE */
+
+/* TOP WAVE */
+.custom-shape-divider-top-1726618814 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1726618814 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+}
+
+.custom-shape-divider-top-1726618814 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* BOTTOM WAVE */
+.custom-shape-divider-bottom-1726619951 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1726619951 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1726619951 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-bottom-1726619951 svg {
+        width: calc(100% + 1.3px);
+        height: 50px;
+    }
+}

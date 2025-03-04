@@ -1,0 +1,230 @@
+[
+    {
+        "name": "Lucas Camargo",
+        "position": "CO-PRESIDENT",
+        "bio": {
+            "en": "My name is Lucas and I am a junior studying Economics and Data Science. Originally from São Paulo, I am fascinated by the world of finance and technology, and especially by the use of artificial intelligence and statistics in the financial market. And, of course, I couldn't forget about my passion for soccer!",
+            "pt": "Me chamo Lucas e sou um junior cursando Economia e Ciência de Dados. Natural de São Paulo, sou fascinado pelo mundo das finanças e tecnologia, e principalmente pelo uso de inteligência artificial e estatística no mercado financeiro. E, claro, não podia esquecer da minha paixão por futebol!"
+        },
+        "pfp": "pfp/lucas.jpg",
+        "links": {
+            "LinkedIn": "",
+            "Email": "",
+            "Instagram": ""
+        },
+        "group": "1"
+    },
+    {
+        "name": "Arthur Lopes",
+        "position": "CO-PRESIDENT",
+        "bio": {
+            "en": "My name is Arthur and I am a junior studying Data Science. Being from Rio, I love playing soccer and playing altinha at the beach. On the other hand, being in Berkeley, I can explore even more my passion for the application of data technology in large markets, using Machine Learning and artificial intelligence. For me, BRASA is a true Brazilian refuge in the USA, and I am very honored to be co-president this semester.",
+            "pt": "Me chamo Arthur e sou um junior estudando Ciência de Dados. Sendo carioca, amo jogar futebol e bater uma altinha na praia. Por outro lado, estando em Berkeley, posso explorar ainda mais minha paixão pela aplicação da tecnologia de dados em grandes mercados, utilizando Machine Learning e inteligência artificial. Para mim, a BRASA é um verdadeiro refúgio brasileiro nos EUA, e estou muito honrado em ser co-presidente neste semestre."
+        },
+        "pfp": "pfp/arthur.jpeg",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/arthur-baruzzi/",
+            "Email": "",
+            "Instagram": ""
+        },
+        "group": "1"
+    },
+
+    {
+        "name": "Gabriel Abreu",
+        "position": "HEAD OF OPERATIONS",
+        "bio": {
+            "en": "My name is Gabriel, I am a freshman studying political economy. I was born in Recife and moved to California when I was 16 years old. I have always been passionate about international trade, but I also like to follow the entertainment industry and global geopolitics.",
+            "pt": "Meu nome é Gabriel, sou freshman estudando economia política. Nasci em Recife e me mudei para a Califórnia aos 16 anos. Sempre fui apaixonado pelo comércio internacional, mas também gosto de acompanhar a indústria do entretenimento e a geopolítica global."
+        },
+        "pfp": "pfp/gabriel.JPG",
+        "links": {
+            "LinkedIn": "",
+            "Email": "",
+            "Instagram": ""
+        },
+        "group": "1"
+    },
+    {
+        "name": "Bruno Jose Fonseca",
+        "position": "HEAD OF FINANCE",
+        "bio": {
+            "en": "My name is Bruno, I am a junior studying Economics. I was born and raised in Salvador but moved to France when I was 18 for the first part of my double degree. I love politics and international law but also horseback riding and going to the beach.",
+            "pt": "Prazer meu nome é Bruno, sou um junior cursando Economia. Eu nasci e fui criado em Salvador mas com 18 anos me mudei para França para a primeira parte do meu duplo diploma. Adoro política e direito internacional mas também andar de cavalo e ir para praia."
+        },
+        "pfp": "pfp/bruno.jpg",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/nicoleelmor",
+            "Email": "nicole.elmor@example.com",
+            "Instagram": "https://www.instagram.com/nicoleelmor"
+        },
+        "group": "1"
+    },
+    {
+        "name": "Sinead Bermudez",
+        "position": "HEAD OF SOCIAL AFFAIRS",
+        "bio": {
+            "en": "I am Sinead, I am a freshman, and I did an exchange in the countryside of São Paulo for a year. I am studying linguistics and I love playing soccer and singing.",
+            "pt": "Eu sou Sinead, sou freshman, e fiz um intercâmbio no interior de São Paulo por um ano. Estou estudando linguística e adoro jogar futebol e cantar."
+        },
+        "pfp": "pfp/sinead.jpeg",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/marianaierardi",
+            "Email": "mariana.ierardi@example.com",
+            "Instagram": "https://www.instagram.com/marianaierardi"
+        },
+        "group": "1"
+    },
+    {
+        "name": "Júlia Araújo",
+        "position": "HEAD OF MARKETING",
+        "bio": {
+            "en": "My name is Júlia and I am a sophomore studying Media Studies! My parents are from Recife, but I grew up in Los Angeles. I like to walk by the beach, read, and have a passion for media and popular culture.",
+            "pt": "Me chamo Júlia e sou uma sophomore cursando Media Studies! Meus pais são de Recife, mas eu cresci em Los Angeles. Gosto de passear pela praia, ler, e tenho uma paixão por mídia e cultura popular."
+        },
+        "pfp": "pfp/julia.jpeg",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/arthurlopes",
+            "Email": "arthur.lopes@example.com",
+            "Instagram": "https://www.instagram.com/arthurlopes"
+        },
+        "group": "1"
+    },
+    {
+        "name": "Daniel Liao",
+        "position": "General Member",
+        "bio": {
+            "en": "My name is Daniel and I am a junior studying Economics. I was born and raised in São Paulo. I am passionate about the world of finance, capital markets, and, soccer (go Corinthians)!",
+            "pt": "Me chamo Daniel e sou um junior cursando Economia. Nasci e vivi a minha vida toda em São Paulo, capital. Sou apaixonado pelo mundo de finanças, mercado de capitais e, futebol (vai Corinthians)!"
+        },
+        "pfp": "pfp/dani.jpg",
+        "links": {
+            "LinkedIn": "",
+            "Email": "",
+            "Instagram": ""
+        },
+        "group": "2"
+    },
+    {
+        "name": "Joe Wang",
+        "position": "General Member",
+        "bio": {
+            "en": "My name is Joe and I was born in Shanghai, China, and lived in São Paulo, Brazil. I study Computer Science at UC Berkeley, and I love technology!",
+            "pt": "Nasci em Shanghai, China, e vivi em São Paulo, Brasil. Estudo Ciência de Computação na UC Berkeley, e adoro tecnologia!"
+        },
+        "pfp": "pfp/Joe.jpg",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/joewang",
+            "Email": "joe.wang@example.com",
+            "Instagram": "https://www.instagram.com/joewang"
+        },
+        "group": "2"
+    },
+
+    {
+        "name": "Nicole Elmor",
+        "position": "General Member",
+        "bio": {
+            "en": "My name is Nicole and I am Class of 2026! I am double majoring in Economics and Data Science. I am from São Paulo.",
+            "pt": "Me chamo Nicole e sou Class of 2026! Estou cursando um double major em Economia e Ciência de Dados. Sou de São Paulo."
+        },
+        "pfp": "pfp/nicole.jpeg",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/nicoleelmor",
+            "Email": "nicole.elmor@example.com",
+            "Instagram": ""
+        },
+        "group": "2"
+    },
+    {
+        "name": "Mariana Ierardi",
+        "position": "General Member",
+        "bio": {
+            "en": "I am a Marine Science and Integrative Biology student at UC Berkeley. Inspired by the ocean’s impact on our world, my main professional goal is to use my diverse academic background and skills to understand ecological relations of marine organisms and expand research in diverse field areas.",
+            "pt": "Sou estudante de Ciências Marinhas e Biologia Integrativa na UC Berkeley. Inspirada pelo impacto do oceano em nosso mundo, meu principal objetivo profissional é usar minha formação acadêmica diversificada e habilidades para entender as relações ecológicas dos organismos marinhos e expandir a pesquisa em diversas áreas."
+        },
+        "pfp": "pfp/mari.jpeg",
+        "links": {
+            "LinkedIn": "",
+            "Email": "",
+            "Instagram": ""
+        },
+        "group": "2"
+    },
+    {
+        "name": "Luiz Felipe Barbosa",
+        "position": "General Member",
+        "bio": {
+            "en": "My name is Luiz, I am a junior studying Mathematics and Media Studies. I am from São Paulo, and I lived in Brazil until the end of high school. I love politics, technology, and art, always with the focus of learning about the world!",
+            "pt": "Sou o Luiz, um Junior cursando Mathematics e Media Studies. Sou de São Paulo, capital, e morei no Brasil até o fim do ensino médio. Gosto muito de política, tecnologia e arte, sempre com o foco de aprender sobre o mundo!"
+        },
+        "pfp": "pfp/luiz.jpeg",
+        "links": {
+            "LinkedIn": "",
+            "Email": "lbarb021@berkeley.edu",
+            "Instagram": ""
+        },
+        "group": "2"
+    },
+    {
+        "name": "Caio Castro de Melo",
+        "position": "General Member",
+        "bio": {
+            "en": "I am passionate about technology and entrepreneurship and have a strong interest in cybersecurity and anti-fraud systems. I enjoy doing 'impossible' and hard things; they can range from developing a complex credit algorithm to diving with sharks. I am currently a BGA Exchange Student.",
+            "pt": "Sou apaixonado por tecnologia e empreendedorismo e tenho um forte interesse em cibersegurança e sistemas antifraude. Gosto de fazer coisas 'impossíveis' e difíceis; elas podem variar desde desenvolver um algoritmo de crédito complexo até mergulhar com tubarões. Atualmente sou um estudante de intercâmbio da BGA."
+        },
+        "pfp": "pfp/caio.jpeg",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/caiogmelo/",
+            "Email": "caiocastro@berkeley.edu",
+            "Instagram": ""
+        },
+        "group": "2"
+    },
+    {
+        "name": "Ana Catharina Q.",
+        "position": "General Member",
+        "bio": {
+            "en": "",
+            "pt": ""
+        },
+        "pfp": "pfp/",
+        "links": {
+            "LinkedIn": "",
+            "Email": "",
+            "Instagram": ""
+        },
+        "group": "2"
+    },
+    {
+        "name": "Joao Henrique",
+        "position": "General Member",
+        "bio": {
+            "en": "Exchange Student at UC Berkeley focusing on tech and entrepreneurship. I majored in Economics with a minor in Data Science at Insper in Brazil. I was born in Recife and have studied in São Paulo for the last 4 years. Talk to me about startups, VC, AI and tech!",
+            "pt": "Estudante de intercâmbio na UC Berkeley focado em tecnologia e empreendedorismo. Me formei em Economia com minor em Ciência de Dados no Insper. Nasci em Recife e estudei em São Paulo nos últimos 4 anos. Fale comigo sobre startups, VC, IA e tecnologia!"
+        },
+        "pfp": "pfp/joao.jpeg",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/joao-henrique-c-santos/",
+            "Email": "joaohenriquesantos@berkeley.edu",
+            "Instagram": ""
+        },
+        "group": "2"
+    },
+    {
+        "name": "Marina Basya Patel Lebl",
+        "position": "General Member",
+        "bio": {
+            "en": "My name is Marina, I'm from the interior of São Paulo, and I'm currently in my fourth year of Mechatronic Engineering. I have a strong interest in innovation, technology, and how these areas have the potential to drive transformation.",
+            "pt": "Me chamo Marina, sou do interior de São Paulo, e estou atualmente no quarto ano de Engenharia Mecatrônica. Tenho um forte interesse em inovação, tecnologia, e como essas áreas têm o potencial de impulsionar transformações."
+        },
+        "pfp": "pfp/marina.jpeg",
+        "links": {
+            "LinkedIn": "https://www.linkedin.com/in/marina-basya-patel-lebl-013056274/",
+            "Email": "marinabplebl@berkeley.edu",
+            "Instagram": ""
+        },
+        "group": "2"
+    }
+
+]
