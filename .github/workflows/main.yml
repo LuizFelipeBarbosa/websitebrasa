@@ -21,7 +21,7 @@ jobs:
         node-version: '20.x'
         cache: 'npm'
     - run: npm ci
-    - run: npm run vite build --if-present
+    - run: npm run build
     
     - run: sudo apt install sshpass
     
