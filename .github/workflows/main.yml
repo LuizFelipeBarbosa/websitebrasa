@@ -24,7 +24,7 @@ jobs:
     - run: npm run build
     
     - run: sudo apt install sshpass
-    
+    # Debug
     - run: ls
     - name: Sync folders
       run: 
